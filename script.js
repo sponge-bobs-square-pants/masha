@@ -74,10 +74,20 @@ function sendMail() {
   window.location.href = "mailto:new-semkino@yandex.ru";
 }
 
+
+//open map
 const button = document.getElementById("map1");
 button.addEventListener("click", MapFunction);
 
 function MapFunction (){
 	window.open("https://www.google.com/maps/place/Parkovaya+Ulitsa,+7,+Sankt-Peterburg,+196084/@59.89284,30.3367743,17z/data=!3m1!4b1!4m5!3m4!1s0x469630156432dfe7:0xd8c5c7ab58e137a8!8m2!3d59.89284!4d30.338963");
+}
+
+//make a call
+const button1 = document.getElementById("call1");
+button1.addEventListener("click", CallFunction);
+
+function CallFunction() {
+	window.open('tel:900300400');
 }
 
