@@ -411,6 +411,10 @@ body, html {
 	font-size: 0.9em;
 	font-family: 'Raleway', sans-serif;
 }
+.p5-button:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+}
 
 .p5-box-text {
 	/*grid-row: 2;*/
