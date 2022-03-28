@@ -88,6 +88,7 @@ const button1 = document.getElementById("call1");
 button1.addEventListener("click", CallFunction);
 
 function CallFunction() {
-	window.open('tel:900300400');
+	// window.open('tel:900300400');
+	document.location.href="tel:"+79641589393;
 }
 
